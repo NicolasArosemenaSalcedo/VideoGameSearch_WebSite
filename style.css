@@ -8,6 +8,7 @@ body {
 
 /*  header design */
 .div-header {
+	max-height: 16.39%;
 	min-height: 16.39%;
 	padding-left: 30px;
 	outline: 30px solid #145254 ;
@@ -318,6 +319,20 @@ body {
 }
 
 /*  Responsive Design min tablet*/
+@media screen and (min-width: 1807px) {
+	.contenedor-img{
+		width: 250px;
+		height: 250px;
+	}
+
+	.flex-item {
+		margin-right: 150px;
+		margin-top: 30px;
+	}
+}
+
+
+
 
 @media screen and (max-width: 1400px) {
 
@@ -515,3 +530,4 @@ body {
 		margin-top: 10px;
 	}
 }
+
